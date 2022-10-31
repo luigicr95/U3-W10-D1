@@ -2,17 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { MioCompComponent } from './mio-comp/mio-comp.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { MainContainerComponent } from './main-container/main-container.component';
+import { PageContentComponent } from './page-content/page-content.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MioCompComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, NavbarComponent, MainContainerComponent, PageContentComponent],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

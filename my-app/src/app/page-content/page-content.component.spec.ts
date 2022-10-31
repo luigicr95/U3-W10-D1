@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MioCompComponent } from './mio-comp.component';
+import { PageContentComponent } from './page-content.component';
 
-describe('MioCompComponent', () => {
-  let component: MioCompComponent;
-  let fixture: ComponentFixture<MioCompComponent>;
+describe('PageContentComponent', () => {
+  let component: PageContentComponent;
+  let fixture: ComponentFixture<PageContentComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MioCompComponent ]
+      declarations: [ PageContentComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MioCompComponent);
+    fixture = TestBed.createComponent(PageContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
